@@ -1,0 +1,10 @@
+[user]
+	name = hackprime
+	email = hackprime@gmail.com
+[alias]
+	gg = log --oneline --abbrev-commit --all --graph --decorate --color
+	co = checkout
+	st = status
+	br = branch
+[push]
+	default = matching
