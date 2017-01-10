@@ -1,0 +1,9 @@
+.button-toolbar.rewind {
+  display: none !important;
+}
+.button-toolbar.next {
+  display: none !important;
+}
+.button-toolbar.home {
+  display: none !important;
+}
