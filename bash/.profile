@@ -10,3 +10,9 @@ export LC_MONETARY="en_US.UTF-8"
 export LC_NUMERIC="en_US.UTF-8"
 export LC_TIME="en_US.UTF-8"
 
+alias de="docker exec -it"
+alias dl="docker logs -ft"
+alias dr="docker rm -f"
+alias dp="docker ps"
+
+alias git-master-hash='git ls-remote `git remote get-url --all origin` | grep refs/heads/master | cut -f 1'
